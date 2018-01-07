@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController
 {
-    let celebrities = ["le Jacky", "le King", "le Zidane", "le Sarko", "le Snowden", "le Newton", "le Doc", "le Baby", "le super héro"]
-    let activities = ["du tuning", "du MCDonald", "du fail", "du numérique", "du Yoga", "du ku klux klan", "du dps", "du heal", "du tank"]
+    let celebrities = ["le Jacky", "le King", "le Yodaf", "le Luna", "la Paradox", "le Opla", "le Doclego", "le Revan", "le super héro", "le Khaalnor", "la Krouxy", "le Gondar", "le Master"]
+    let activities = ["du tuning", "du MCDonald", "du fail", "de l'afk", "du kick", "du ku klux klan", "du dps", "du heal", "du tank", "du PVE", "du PVP", "du champ de coton"]
 
     @IBOutlet weak var quoteLabel: UILabel!
     
@@ -25,7 +25,7 @@ class ViewController: UIViewController
         let activity = activities[randomIndex2]
         print(activity)
         
-        let quote = "Tu es " + celebrity + " " + activity + " !"
+        let quote = "Tu es " + celebrity + " " + activity + " =D"
         
         quoteLabel.text = quote
     }

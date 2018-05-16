@@ -39,7 +39,29 @@ let computerScient = Developpeur.init(prenom: "Florian", nom: "Beaumont")
 
 computerScient.ordinateur
 
+
 computerScient.feterSonAnniversaire()
 computerScient.feterSonAnniversaire()
+
+//class Counter {
+//    var count = 0
+//    func increment() -> Int {
+//        count += 1
+//        return count
+//    }
+//    func increment(by amount: Int) -> Int {
+//        count += amount
+//        return count
+//    }
+//    func reset() -> Int {
+//        count = 0
+//        return count
+//    }
+//}
+//
+//var test = Counter()
+//test.increment(by: 12)
+//test.increment()
+//test.reset()
 
 

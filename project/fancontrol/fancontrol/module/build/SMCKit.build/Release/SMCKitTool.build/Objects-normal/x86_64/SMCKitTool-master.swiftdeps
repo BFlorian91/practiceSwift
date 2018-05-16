@@ -1,9 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "d00c63365e3570d03e3f517edd97494a"
-build_time: [1516531405, 529592000]
-inputs:
-  "/Users/florian/Documents/Cours_Swift/project/SMCKit/SMCKitTool/lib/CommandLine/CommandLineKit/Option.swift": [9223372036, 854775807]
-  "/Users/florian/Documents/Cours_Swift/project/SMCKit/SMCKitTool/lib/CommandLine/CommandLineKit/CommandLine.swift": [9223372036, 854775807]
-  "/Users/florian/Documents/Cours_Swift/project/SMCKit/SMCKitTool/lib/CommandLine/CommandLineKit/StringExtensions.swift": [9223372036, 854775807]
-  "/Users/florian/Documents/Cours_Swift/project/SMCKit/SMCKit/SMC.swift": [9223372036, 854775807]
-  "/Users/florian/Documents/Cours_Swift/project/SMCKit/SMCKitTool/main.swift": [9223372036, 854775807]

@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1776F12D2022B47D002FB57E /* buttonStyleRadiusandShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1776F12C2022B47D002FB57E /* buttonStyleRadiusandShade.swift */; };
 		177DD16A201E46370033869A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DD169201E46370033869A /* AppDelegate.swift */; };
 		177DD16C201E46370033869A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DD16B201E46370033869A /* ViewController.swift */; };
 		177DD16F201E46370033869A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177DD16D201E46370033869A /* Main.storyboard */; };
 		177DD171201E46370033869A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177DD170201E46370033869A /* Assets.xcassets */; };
 		177DD174201E46370033869A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177DD172201E46370033869A /* LaunchScreen.storyboard */; };
+		8DF7BCF8C19769FE66969A37 /* Pods_EatWho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED009FB32B2657C682669231 /* Pods_EatWho.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		172B08B6AE802C0B3A5D7F30 /* Pods-EatWho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatWho.release.xcconfig"; path = "Pods/Target Support Files/Pods-EatWho/Pods-EatWho.release.xcconfig"; sourceTree = "<group>"; };
+		1776F12C2022B47D002FB57E /* buttonStyleRadiusandShade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonStyleRadiusandShade.swift; sourceTree = "<group>"; };
 		177DD166201E46370033869A /* EatWho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatWho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		177DD169201E46370033869A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		177DD16B201E46370033869A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		177DD170201E46370033869A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		177DD173201E46370033869A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		177DD175201E46370033869A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9374BD6D64AC9DC0002AF24B /* Pods-EatWho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EatWho.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EatWho/Pods-EatWho.debug.xcconfig"; sourceTree = "<group>"; };
+		ED009FB32B2657C682669231 /* Pods_EatWho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EatWho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF7BCF8C19769FE66969A37 /* Pods_EatWho.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1776F12B2022B456002FB57E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1776F12C2022B47D002FB57E /* buttonStyleRadiusandShade.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		177DD15D201E46370033869A = {
 			isa = PBXGroup;
 			children = (
 				177DD168201E46370033869A /* EatWho */,
 				177DD167201E46370033869A /* Products */,
+				27DDCD7CAE67DED21C0D4936 /* Pods */,
+				1878FEF0BE58E7B74A9C3834 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +71,7 @@
 		177DD168201E46370033869A /* EatWho */ = {
 			isa = PBXGroup;
 			children = (
+				1776F12B2022B456002FB57E /* Models */,
 				177DD169201E46370033869A /* AppDelegate.swift */,
 				177DD16B201E46370033869A /* ViewController.swift */,
 				177DD16D201E46370033869A /* Main.storyboard */,
@@ -64,6 +82,23 @@
 			path = EatWho;
 			sourceTree = "<group>";
 		};
+		1878FEF0BE58E7B74A9C3834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED009FB32B2657C682669231 /* Pods_EatWho.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27DDCD7CAE67DED21C0D4936 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9374BD6D64AC9DC0002AF24B /* Pods-EatWho.debug.xcconfig */,
+				172B08B6AE802C0B3A5D7F30 /* Pods-EatWho.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 177DD178201E46370033869A /* Build configuration list for PBXNativeTarget "EatWho" */;
 			buildPhases = (
+				FE73D352F45880131D719A0B /* [CP] Check Pods Manifest.lock */,
 				177DD162201E46370033869A /* Sources */,
 				177DD163201E46370033869A /* Frameworks */,
 				177DD164201E46370033869A /* Resources */,
+				D35504ADEB929E3AEE97E856 /* [CP] Embed Pods Frameworks */,
+				7471D69896BF290A12A4FEAF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,11 +169,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7471D69896BF290A12A4FEAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EatWho/Pods-EatWho-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D35504ADEB929E3AEE97E856 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EatWho/Pods-EatWho-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE73D352F45880131D719A0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EatWho-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		177DD162201E46370033869A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1776F12D2022B47D002FB57E /* buttonStyleRadiusandShade.swift in Sources */,
 				177DD16C201E46370033869A /* ViewController.swift in Sources */,
 				177DD16A201E46370033869A /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +362,7 @@
 		};
 		177DD179201E46370033869A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9374BD6D64AC9DC0002AF24B /* Pods-EatWho.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +378,7 @@
 		};
 		177DD17A201E46370033869A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 172B08B6AE802C0B3A5D7F30 /* Pods-EatWho.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

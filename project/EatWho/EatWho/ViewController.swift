@@ -13,6 +13,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var buttonInteract: UIButton!
     
     /* ImageView */
     @IBOutlet weak var bg: UIImageView!
@@ -69,14 +70,4 @@ class ViewController: UIViewController {
             print("CRASH")
         }
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-
-
 }

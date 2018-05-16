@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -40,56 +39,47 @@
                                 <color key="shadowColor" red="0.0" green="0.27847335699999998" blue="0.43159002590000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAh-nI-11M">
-                                <rect key="frame" x="70" y="529.5" width="236" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAh-nI-11M" customClass="buttonStyleRadiusandShade" customModule="EatWho" customModuleProvider="target">
+                                <rect key="frame" x="20" y="527" width="335" height="120"/>
+                                <color key="backgroundColor" red="0.24426012359999999" green="0.37893902730000001" blue="0.45177664969999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="236" id="32L-pI-RUE"/>
-                                    <constraint firstAttribute="height" constant="128" id="Fx3-e8-o9F"/>
+                                    <constraint firstAttribute="height" constant="120" id="mce-TJ-JCW"/>
                                 </constraints>
-                                <state key="normal" image="pushit"/>
+                                <state key="normal" title="PUSH ME!">
+                                    <color key="titleColor" red="0.35161561679999997" green="0.84399022150000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="pushButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3d-bi-tPy"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2e5-QT-eGm">
-                                <rect key="frame" x="0.0" y="219.5" width="375" height="228"/>
+                                <rect key="frame" x="20" y="207" width="335" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="2e5-QT-eGm" secondAttribute="height" multiplier="125:76" id="j4J-Og-rea"/>
-                                    <constraint firstAttribute="height" constant="228" id="kbL-dO-Oaf"/>
-                                    <constraint firstAttribute="width" constant="375" id="m8x-aS-frf"/>
+                                    <constraint firstAttribute="height" constant="200" id="1Nv-xc-eDi"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PUSH ME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMr-gB-txW">
-                                <rect key="frame" x="112.5" y="571" width="150" height="45"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="45" id="dwn-gR-ZvT"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="nUk-jV-uGm"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.45239740099484121" blue="0.65864927030456855" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2e5-QT-eGm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2EG-Hu-NoV"/>
                             <constraint firstItem="OJy-OB-PO5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4L0-RK-1BJ"/>
                             <constraint firstItem="OJy-OB-PO5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5YU-Gf-IEb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="GU4-tK-722" secondAttribute="bottom" constant="571" id="IDz-0N-gR0"/>
-                            <constraint firstItem="FMr-gB-txW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="260" id="LsA-fB-Qvy"/>
-                            <constraint firstItem="gAh-nI-11M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MUm-XZ-7Mx"/>
-                            <constraint firstItem="2e5-QT-eGm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RxL-N5-271"/>
+                            <constraint firstItem="gAh-nI-11M" firstAttribute="top" secondItem="2e5-QT-eGm" secondAttribute="bottom" constant="120" id="PWP-cH-ySD"/>
+                            <constraint firstItem="gAh-nI-11M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aOz-TD-ObG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OJy-OB-PO5" secondAttribute="trailing" id="bCW-dj-JvD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2e5-QT-eGm" secondAttribute="trailing" constant="20" id="bp4-0N-45Q"/>
                             <constraint firstItem="GU4-tK-722" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cMG-DR-g7G"/>
-                            <constraint firstItem="gAh-nI-11M" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="260" id="eyW-S0-h0R"/>
+                            <constraint firstItem="2e5-QT-eGm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fGL-6J-4tK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OJy-OB-PO5" secondAttribute="bottom" id="mmB-pJ-oYs"/>
-                            <constraint firstItem="FMr-gB-txW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uj0-ob-jwc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gAh-nI-11M" secondAttribute="trailing" constant="20" id="mrC-p1-LVp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gAh-nI-11M" secondAttribute="bottom" constant="20" id="qqp-3x-yU7"/>
                             <constraint firstItem="GU4-tK-722" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="xuu-MZ-M16"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="bg" destination="OJy-OB-PO5" id="jvd-7h-bzi"/>
+                        <outlet property="buttonInteract" destination="gAh-nI-11M" id="8ub-YR-EeB"/>
                         <outlet property="imageView" destination="2e5-QT-eGm" id="maJ-Bg-hxe"/>
                         <outlet property="questionLabel" destination="GU4-tK-722" id="3TS-gP-hGc"/>
                     </connections>
@@ -101,6 +91,5 @@
     </scenes>
     <resources>
         <image name="bg11" width="1242" height="2208"/>
-        <image name="pushit" width="2000" height="1000"/>
     </resources>
 </document>

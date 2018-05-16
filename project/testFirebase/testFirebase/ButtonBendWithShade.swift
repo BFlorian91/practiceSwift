@@ -10,12 +10,21 @@ import UIKit
 
 class ButtonBendWithShade: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        putBendandShade()
     }
-    */
 
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        putBendandShade()
+    }
+    
+    func putBendandShade() {
+        self.layer.cornerRadius = 20
+        self.layer.shadowColor = UIColor.darkGray.cgColor
+        self.layer.shadowRadius = 4
+        self.layer.shadowOffset = CGSize(width: 4, height: 4)
+        self.layer.shadowOpacity = 0.75
+    }
 }
